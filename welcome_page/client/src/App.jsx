@@ -5,7 +5,9 @@ import Navbar from "./components/Navbar";
 import NewsPage from "./components/News";
 import Footer from "./components/Footer";
 
-const API_BASE_URL = "http://localhost:3000";
+// const API_BASE_URL = "http://localhost:3000";
+
+const API_BASE_URL = "https://backendwq.refactore.ir"; //production
 
 const App = () => {
   const [newsItems, setNewsItems] = useState([]);
